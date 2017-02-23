@@ -1,0 +1,61 @@
+ Linux commands with an example:
+
+1. pwd-Prints the name of the working directory.
+	example- /bin/pwd
+		/home/abc.
+2. vi-It is the default editor that comes with the UNIX operating system(visual editor)
+	example-vi filename
+		opens the file to be edited.
+
+3. touch-This changes the timestamps
+	example-touch file.txt
+		If file.txt exists then the touch updates the access and modification times to the current time.
+		 If file.txt doesn't exist, a new empty file is created.
+
+4. mkdir-This is used to create new directories.
+	example-mkdir dir
+		creates a new directory named dir.
+
+5. rm-This is used to delete either files or directories.
+	example- rm dir	
+		deletes the directory dir.
+
+6. ls- This is used to list the contents in the directory.
+	example- ls dir
+		lists the contents present in the directory dir.
+
+7. echo-This is used to display the line of text.
+	example-echo hey
+		displays hey.
+
+8. cat-This is used to concatenate two files together.
+	example-cat file1.txt file2.txt
+		will print the files together as a single file.
+
+9. who-This is used to display who is logged into the system.
+	example- who
+		displays the username, line, and time of all currently logged-in sessions.
+
+10. cd-This command is used to change the working directory.
+	example- cd /
+		moves to the  root directory.
+
+11. date- This command is used to display the date of the system.
+	example-date
+		dsiplays the system date.
+
+12. cal-This command is used to display the calender.
+	example- cal
+		displays the calender for this month.
+
+13. mv- This command is used to move or rename files.
+	example- mv file.txt ../
+		this moves the file to parent directory.
+
+14. cp-This is used to make a copy of files or directories.
+	example- cp org.text new.txt
+		the org is the original file that is to be copied and new is the copy of org file.
+
+15. which-This is used to locate the executable files and returns their path.
+	example- which -a filename
+		prints all the matching pathnames of each matching filename.
